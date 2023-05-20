@@ -1,0 +1,95 @@
+/*  Google Font CDN  */
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  background: url("images/bg.jpg");
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+body::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.starBg {
+  background: url("images/stars.png");
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 200vh;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  z-index: 100;
+}
+section.top {
+  min-height: 160vh;
+}
+section.top h1.title {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding-top: 35vh;
+  font-size: 40px;
+  letter-spacing: 2px;
+  z-index: 100;
+}
+section.top h1.title div {
+  display: inline-block;
+  letter-spacing: -7px;
+}
+section.bottom {
+  background: url("images/bottom.png") center bottom/100% no-repeat;
+  min-height: 88vh;
+}
+section.bottom .contentWrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+section.bottom .contentWrap .imageWrap img {
+  margin: 0 2%;
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+section.bottom .contentWrap .imageWrap img:hover {
+  transform: translateY(-20px);
+}
+section.bottom .contentWrap h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+section.bottom .topBtn {
+  position: absolute;
+  bottom: 10%;
+  right: 70px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 2px solid #eee;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+section.bottom .topBtn:hover {
+  background-color: #000;
+  border-color: #333;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
