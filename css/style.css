@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("images/bg.jpg");
+  background: url("/images/bg.jpg");
   background-size: cover;
   margin: 0;
   position: relative;
@@ -23,7 +23,7 @@ body::after {
 }
 
 .starBg {
-  background: url("images/stars.png");
+  background: url("/images/stars.png");
   position: fixed;
   top: 0;
   width: 100vw;
