@@ -1,4 +1,4 @@
-# scroll stars animation with GSAP
+# 💫 scroll stars animation with GSAP
 
 This creation feels like an animation of a falling star. <br/>
 I made the background in two layers.
